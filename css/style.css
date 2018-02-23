@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    box-shadow: 0px 1px 15px black;
+    height: 85px;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+header{
+    display: flex;
+
+}
+
+.row{
+    display: flex;
+}
+
+.logo{
+    width: 5%;
+}
+
+.card{
+    border: 2px solid black;
+    height: 163px;
+    margin: 5%;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.img-card{
+    width: 100%;
+
+}
+
+
+
+@media (max-width: 750px){
+    .row{
+        display: block;
+    }
+
+    
+}
+
+
+
+
